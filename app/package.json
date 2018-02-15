@@ -1,0 +1,55 @@
+{
+  "name": "kicktipp_app",
+  "version": "1.1.0",
+  "description": "Kicktipp App",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "betterScripts": {
+    "start-dev": {
+      "command": "node ./bin/server.js",
+      "env": {
+        "NODE_PATH": "./src",
+        "NODE_ENV": "development",
+        "PORT": 3000,
+        "APIPORT": 3030
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "192.168.178.43/kicktipp2016.git"
+  },
+  "engines": {
+    "node": "^5.9.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "emojione": "^3.1.2",
+    "foundation-sites": "^6.2.3",
+    "if-env": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "motion-ui": "^1.2.2",
+    "nodemon": "^1.9.1",
+    "normalize.scss": "^0.1.0",
+    "react": "^15.0.1",
+    "react-addons-css-transition-group": "^15.0.2",
+    "react-css-transition-replace": "^1.2.0-beta",
+    "react-dom": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "react-redux-toastr": "^3.0.10",
+    "react-router": "^2.2.4",
+    "react-static-container": "^1.0.1",
+    "redux": "^3.3.1",
+    "redux-form": "5.0.1",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1",
+    "reselect": "^2.5.1",
+    "socket.io-client": "^2.0.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {}
+}

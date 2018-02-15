@@ -1,0 +1,9 @@
+################################# Renamer Log ##################################
+# File : 4 files
+# Time : Sa, 16 Apr 2016 17:48:19
+################################################################################
+
+animation.less is converted to animation.scss
+confirm.less is converted to confirm.scss
+css-fonts.less is converted to css-fonts.scss
+index.less is converted to index.scss

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 900 599.99997"
+   height="169.33333mm"
+   width="254mm"
+   inkscape:version="0.91 r"
+   sodipodi:docname="SUI.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1100"
+     inkscape:window-height="857"
+     id="namedview935"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.0353302"
+     inkscape:cx="-4504.4661"
+     inkscape:cy="-570.55515"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-4188.8862,-784.84724)"
+     id="layer1">
+    <g
+       transform="matrix(18.755181,0,0,18.75,4338.8034,784.84724)"
+       id="sui">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="-7.9933729"
+         height="32"
+         width="47.98674"
+         id="rect6820" />
+      <rect
+         style="fill:#ffffff"
+         height="6"
+         width="20"
+         x="6"
+         y="13"
+         id="rect6822" />
+      <rect
+         style="fill:#ffffff"
+         height="20"
+         width="6"
+         x="13"
+         y="6"
+         id="rect6824" />
+    </g>
+  </g>
+</svg>

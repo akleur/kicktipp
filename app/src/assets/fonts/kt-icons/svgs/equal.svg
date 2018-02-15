@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg7054"
+   version="1.1"
+   viewBox="0 0 1000 1000"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="equal.svg"
+   width="1000"
+   height="1000">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="0.417193"
+     inkscape:cx="543.08167"
+     inkscape:cy="327.40175"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7054"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-716.69467,194.15474"
+       orientation="0,1"
+       id="guide4136" />
+    <sodipodi:guide
+       position="-139.02438,699.91586"
+       orientation="0,1"
+       id="guide4138" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7059">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="matrix(9.4160603,0,0,11.606698,29.178153,-11162.079)">
+    <path
+       id="rect7606"
+       d="m 9.517,1015 80.97,0 0,16.15 -80.97,0 z m 0,-27.4 80.97,0 0,16.15 -80.97,0 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

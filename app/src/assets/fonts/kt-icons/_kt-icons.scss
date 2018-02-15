@@ -1,0 +1,88 @@
+@font-face {
+	font-family: "kt-icons";
+	src: url('fonts/kt-icons/kt-icons.eot');
+	src: url('fonts/kt-icons/kt-icons.eot?#iefix') format('eot'),
+		url('fonts/kt-icons/kt-icons.woff2') format('woff2'),
+		url('fonts/kt-icons/kt-icons.woff') format('woff'),
+		url('fonts/kt-icons/kt-icons.ttf') format('truetype'),
+		url('fonts/kt-icons/kt-icons.svg#kt-icons') format('svg');
+}
+
+@mixin kt-icon-styles {
+	font-family: "kt-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+	line-height:1;
+	display: inline-block;
+}
+
+%kt-icon {
+	@include kt-icon-styles;
+}
+
+@function kt-icon-char($filename) {
+	$char: "";
+
+	@if $filename == arrow-up-down {
+		$char: "\E001";
+	}
+	@if $filename == arrow-up-down_01 {
+		$char: "\E002";
+	}
+	@if $filename == dislike {
+		$char: "\E003";
+	}
+	@if $filename == equal {
+		$char: "\E004";
+	}
+	@if $filename == goal {
+		$char: "\E005";
+	}
+	@if $filename == like {
+		$char: "\E006";
+	}
+	@if $filename == trophy {
+		$char: "\E007";
+	}
+
+	@return $char;
+}
+
+@mixin kt-icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %kt-icon;
+		} @else {
+			@include kt-icon-styles;
+		}
+		content: kt-icon-char($filename);
+	}
+}
+
+.kt-icon-arrow-up-down {
+	@include kt-icon(arrow-up-down);
+}
+.kt-icon-arrow-up-down_01 {
+	@include kt-icon(arrow-up-down_01);
+}
+.kt-icon-dislike {
+	@include kt-icon(dislike);
+}
+.kt-icon-equal {
+	@include kt-icon(equal);
+}
+.kt-icon-goal {
+	@include kt-icon(goal);
+}
+.kt-icon-like {
+	@include kt-icon(like);
+}
+.kt-icon-trophy {
+	@include kt-icon(trophy);
+}

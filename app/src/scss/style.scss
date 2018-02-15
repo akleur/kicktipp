@@ -1,0 +1,42 @@
+/* @import "normalize"; */
+
+//colors
+	$white: #ffffff;
+	$black: #000000;
+
+	$color_font: #1a181c;
+	$color_main: #b1c700;
+	$color_mainDark: #596300;
+	$color_warning: #cc9933;
+	$color_error: #9f0000;
+	$color_back: #e7eace;
+	$color_back_2: #ada8a8;
+
+
+	$black_01: rgba(0, 0, 0, 0.1);
+	$black_003: rgba(0, 0, 0, 0.03);
+	$black_02: rgba(0, 0, 0, 0.2);
+
+	$font_0: arial;
+	$font_1: geneva;
+	$font_2: sans-serif;
+
+body {
+  background: $white;
+  color: $color_font;
+};
+
+html{
+  	color: $color_font;
+}
+
+#wrapper{
+	width:100%;
+	
+}
+
+.inner-wrapper{
+	//background: $color_back_2;
+	width:50%;
+	margin: 0 auto;
+}

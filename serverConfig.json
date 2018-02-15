@@ -1,0 +1,26 @@
+{
+	"apps": [
+		{
+			"name": "server-kicktipp",
+			"script": "server.bundle.js",
+			"log_file": "logs/server-kicktipp.log",
+			"error_file": "logs/server-kicktipp-error.log",
+			"watch": false,
+			"ignore_watch" : ["node_modules", "logs", "old", "app", "api/node_modules", "work"],
+			"env": {
+				"NODE_ENV": "production"
+			}
+		},
+		{
+			"name": "socket-server-kicktipp",
+			"script": "socket_server.bundle.js",
+			"log_file": "logs/socket_server-kicktipp.log",
+			"error_file": "logs/socket_server-kicktipp-error.log",
+			"watch": false,
+			"ignore_watch" : ["node_modules", "logs", "old", "app", "api/node_modules", "work"],
+			"env": {
+				"NODE_ENV": "production"
+			}
+		}
+	]
+}

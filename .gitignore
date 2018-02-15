@@ -1,0 +1,8 @@
+.idea
+node_modules
+api/node_modules
+app/node_modules
+
+dist
+/logs
+gitIgnored

@@ -1,0 +1,27 @@
+Server (localhost:3000)
+	
+	gulp build:server
+	node server.bundle.js
+
+	gulp build:server && node server.bundle.js
+
+	server watchen:
+	npm install -g nodemon
+	gulp watch:server
+	nodemon server.bundle.js (neues Terminal Fenster)
+
+
+
+Frontend
+
+	gulp build:frontend
+	gulp watch:frontend
+	gulp watch:sass
+	gulp watch:js
+
+	gulp build:frontend
+
+
+Build fronted on the server side:
+
+	npm run frontend:prod (compress, etc...)

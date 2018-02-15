@@ -1,0 +1,27 @@
+$color_font: #1a181c;
+$color_main: #b1c700;
+$color_mainDark: #596300;
+$color_success: $color_main;
+$color_warning: #cc9933;
+$color_error: #9f0000;
+$color_back: #e4e5da;
+$color_back_2: #b4b5af;
+$color_back_3: #a9b070;
+
+$foundation-palette: (
+  primary: $color_mainDark,
+  secondary: $color_back_3,
+  success: $color_success,
+  warning: $color_warning,
+  alert: $color_error,
+);
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #474743;
+$white: lighten( $color_back , 10% );
+
+$black_01: rgba(0, 0, 0, 0.1);
+$black_003: rgba(0, 0, 0, 0.03);
+$black_02: rgba(0, 0, 0, 0.2);
+$black_05: rgba(0, 0, 0, 0.5);
