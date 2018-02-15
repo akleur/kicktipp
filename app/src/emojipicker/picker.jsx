@@ -5,7 +5,7 @@ var React = require("react");
 var Emoji = require("./emoji.jsx");
 var Modifiers = require("./modifiers.jsx");
 var strategy = require("./strategy"); 
-var emojione = require("emojione");
+// var emojione = require("emojione");
 var store = require("store");
 var _ = require("underscore");
 

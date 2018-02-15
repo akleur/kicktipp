@@ -13,7 +13,6 @@ module.exports = {
     module: {
         loaders: [
             {
-                exclude: /node_modules/,
                 test: /\.(js|jsx)$/,
                 loader: 'babel-loader',
                 query: {
@@ -22,15 +21,19 @@ module.exports = {
             }
         ]
     },
+    externals: {
+        foundation: 'Foundation'
+    },
     plugins: [
         new webpack.DefinePlugin({ // <-- key to reducing React's size
             'process.env': {
                 NODE_ENV: JSON.stringify('development')
             }
         }),
-        new webpack.optimize.OccurrenceOrderPlugin(),
-        new webpack.optimize.UglifyJsPlugin(),
-        new webpack.optimize.AggressiveMergingPlugin()
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        })
     ]
 };
-

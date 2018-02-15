@@ -1,30 +1,35 @@
+var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
+    target: 'web',
     entry: [
-        './app/src/index.js'
+        path.join(__dirname, '/app/src/index.js')
     ],
     output: {
-        path: './app/dist/js',
+        path: path.join(__dirname, '/app/dist/js'),
         filename: 'frontend.js'
     },
-    devtool: '#sourcemap',
     module: {
         loaders: [
             {
-                exclude: /node_modules/,
+                test: /\.(js|jsx)$/,
                 loader: 'babel-loader',
-                query: { presets: ['es2015', 'react'] }
+                query: {
+                    presets: ['babel-preset-es2015']
+                }
             }
         ]
     },
+    externals: {
+        foundation: 'Foundation'
+    },
     plugins: [
-        new webpack.DefinePlugin({
+        new webpack.DefinePlugin({ // <-- key to reducing React's size
             'process.env': {
-                'NODE_ENV': JSON.stringify('production')
+                NODE_ENV: JSON.stringify('development')
             }
         }),
-        new webpack.NoErrorsPlugin(),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false
@@ -32,3 +37,4 @@ module.exports = {
         })
     ]
 };
+

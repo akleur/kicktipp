@@ -2,7 +2,7 @@
 @todo: Rewrite this completely  new
  */
 import React, { Component, PropTypes } from 'react';
-import emojione from 'emojione';
+// import emojione from 'emojione';
 /*
 import EmojiPicker from '../../emojipicker/picker.jsx';
 */
@@ -67,7 +67,7 @@ export default class MessageEntryBox extends Component {
 
     addEmoji(data) {
         //  debugger;
-        const img = emojione.shortnameToImage(data.shortname);
+        // const img = emojione.shortnameToImage(data.shortname);
         $(this.refs.message).append(img);
         /*
           let msgContent = $(this.refs.message).html();

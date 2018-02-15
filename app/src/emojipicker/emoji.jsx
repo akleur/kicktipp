@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import emojione from 'emojione';
+// import emojione from 'emojione';
 
 export default class Emoji extends Component {
     shouldComponentUpdate(nextProps) {
